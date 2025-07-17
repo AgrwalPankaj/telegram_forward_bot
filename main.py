@@ -7,8 +7,8 @@ from pyrogram.errors import FloodWait, RPCError
 API_ID = int(os.environ["API_ID"])
 API_HASH = os.environ["API_HASH"]
 BOT_TOKEN = os.environ["BOT_TOKEN"]
-SOURCE_CHAT_ID = int(os.environ["SOURCE_CHAT_ID"])
-DEST_CHAT_ID = int(os.environ["DEST_CHAT_ID"])
+SOURCE_CHAT_ID = int(os.environ["1002312779748"])
+DEST_CHAT_ID = int(os.environ["1002740358553"])
 
 app = Client("forward_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
